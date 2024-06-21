@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With DOM</title>
+</head>
+<body><div> <!-- parent -->
+        <h1>DOM means documnet object</h1>    <!--child-->
+        <p>Sibling</p>
+    </div>
+    <p>DOM means document object</p>
+    <!-- documnet.head
+    document.body
+    document.title="any title" -->
+
+    <!-- in console -->
+    console.log(document.body.firstChild)
+    console.log(document.body.lastChild)
+    console.log(document.body.childNodes)
+    let arr = Array.from(document.body.childNodes)
+    console.log(arr)
+</body>
+</html>

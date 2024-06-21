@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Set</title>
+</head>
+<body>
+    <h1><center>Practice Set</center></h1>
+    <script>
+        let runAgain = true;
+        const candrive = (age) => {
+            return age >= 18 ? atrue : false
+        }
+
+        while (runAgain) {
+            let age = prompt("enter your age");
+            age = parseInt(age)
+
+            if(candrive(age)) {
+                alert("you can drive")
+            }
+            else{
+                alert("you can not drive")
+            }
+            runAgain = confirm("Do you want to play again")
+        }
+    </script>
+</body>
+</html>

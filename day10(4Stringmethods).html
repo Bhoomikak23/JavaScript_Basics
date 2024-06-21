@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods</title>
+</head>
+<body>
+    <h1><center>String Methods</center></h1>
+    <script>
+        var x=prompt("Enter the sentence to find the length")
+
+        var len = x.length
+        document.write('Length of the string is'+" "+len+"</br>")
+
+        var a = x.charAt(2)
+        document.write('Letter present at 2nd position is'+" "+a+"</br>")
+
+        var b = x.substr(2)
+        document.write('String from 2nd character is'+" "+b+"</br>")
+
+        var c = x.concat('THINKWorks')
+        document.write('String after joining is'+" "+c+"</br>")
+
+        var d = x.substr(2,3)
+        document.write('Part of string is'+" "+d+"</br>")
+    </script>
+</body>
+</html>
